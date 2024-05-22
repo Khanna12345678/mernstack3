@@ -19,5 +19,5 @@ app.use("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
 });
 app.listen(port, () => {
-  console.log(`Server is working on PORT: ${port} in ${process.env.NODE_ENV} MODE`);
+  console.log(`Server is working on PORT: ${port}`);
 });
