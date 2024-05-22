@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
    
 
 const __filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
+const __dirname = path.dirname(_filename);
 
 export const instance = new Razorpay({
   key_id: process.env.RAZORPAY_API_KEY,
